@@ -3,6 +3,7 @@
   "private": false,
   "main": "./playroom/index.ts",
   "scripts": {
+    "build": "npm run format && npm run eslint && npm run playroom:build",
     "playroom:start": "playroom start",
     "playroom:build": "playroom build",
     "format": "prettier --write playroom/**/*.ts{,x}",
