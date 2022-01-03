@@ -6,12 +6,12 @@ export default [
   {
     group: Heading.displayName,
     name: '<Heading>:Заголовок Общий',
-    code: render(<Heading level={1}>Заголовок первого уровня</Heading>),
+    code: render(<Heading tag="h5" level={5}>Заголовок первого уровня</Heading>),
   },
   {
     group: Heading.displayName,
     name: '<Heading>:Заголовок бессемантичный',
-    code: render(<Heading level={1} as="div">Заголовок первого уровня как див</Heading>),
+    code: render(<Heading level={1} tag="div">Заголовок первого уровня как див</Heading>),
   },
 ]
 
