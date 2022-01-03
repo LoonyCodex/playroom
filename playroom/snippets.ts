@@ -3,7 +3,7 @@ import Cover from './components/Cover'
 import Frame from './components/Frame'
 import UnorderedList from './components/UnorderedList'
 import BlockQuote from './components/BlockQuote'
-import H from './components/H'
+import Heading from './components/Heading'
 import H1 from './components/H1'
 import H2 from './components/H2'
 import H3 from './components/H3'
@@ -25,7 +25,7 @@ export default [
   ...Frame,
   ...UnorderedList,
   ...BlockQuote,
-  ...H,
+  ...Heading,
   ...H1,
   ...H2,
   ...H3,
