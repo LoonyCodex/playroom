@@ -11,7 +11,7 @@ export default [
   {
     group: Heading.displayName,
     name: '<Heading>:Заголовок бессемантичный',
-    code: render(<Heading level={1} tag="div">Заголовок первого уровня как див</Heading>),
+    code: render(<Heading tag="div" level={1}>Заголовок первого уровня как див</Heading>),
   },
 ]
 
