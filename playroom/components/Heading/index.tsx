@@ -6,7 +6,7 @@ export default [
   {
     group: Heading.displayName,
     name: '<Heading>:Заголовок Общий',
-    code: render(<Heading tag="h5" level={5}>Заголовок первого уровня</Heading>),
+    code: render(<Heading level={5}>Заголовок пятого уровня</Heading>),
   },
   {
     group: Heading.displayName,
