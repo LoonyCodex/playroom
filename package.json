@@ -10,7 +10,7 @@
     "eslint": "tsc --noEmit && eslint playroom/**/*.ts{,x}"
   },
   "dependencies": {
-    "@ProtoSetUI/set-ui": "^0.0.114",
+    "@ProtoSetUI/set-ui": "^0.0.115",
     "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
