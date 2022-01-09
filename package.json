@@ -3,14 +3,15 @@
   "private": false,
   "main": "./playroom/index.ts",
   "scripts": {
-    "build": "npm run format && npm run eslint && npm run playroom:build",
+    "build": "npm run format && npm run eslint && types && npm run playroom:build",
     "playroom:start": "playroom start",
     "playroom:build": "playroom build",
     "format": "prettier --write playroom/**/*.ts{,x}",
-    "eslint": "tsc --noEmit && eslint playroom/**/*.ts{,x}"
+    "types": "tsc --project tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
+    "eslint": "eslint playroom/**/*.ts{,x}"
   },
   "dependencies": {
-    "@ProtoSetUI/set-ui": "^0.0.118",
+    "@ProtoSetUI/set-ui": "^0.0.123",
     "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
