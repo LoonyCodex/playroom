@@ -3,7 +3,7 @@ import render from 'react-element-to-jsx-string'
 
 export default [
   {
-    group: Cover.displayName,
+    group: 'Cover',
     name: '<section>: Обложка',
     code: `
       <Cover image="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dresden_Codex_pp.58-62_78.jpg">
@@ -12,7 +12,7 @@ export default [
     `,
   },
   {
-    group: Cover.displayName,
+    group: 'Cover',
     name: '<section>: Обложка с датой',
     code: `
       <Cover image="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dresden_Codex_pp.58-62_78.jpg">
